@@ -48,7 +48,7 @@
         <Space
             android:layout_width="1dp"
             android:layout_height="0dp"
-            android:layout_weight="2"></Space>
+            android:layout_weight="10"></Space>
 
         <LinearLayout
             android:id="@+id/Row1"
@@ -68,8 +68,8 @@
 
             <ImageView
                 android:id="@+id/lotView0"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
                 tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="190dp" />
@@ -81,10 +81,10 @@
 
             <ImageView
                 android:id="@+id/lotView1"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
-                tools:layout_editor_absoluteX="147dp"
+                tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="190dp" />
 
             <Space
@@ -94,10 +94,10 @@
 
             <ImageView
                 android:id="@+id/lotView2"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
-                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="190dp" />
 
             <Space
@@ -107,11 +107,103 @@
 
             <ImageView
                 android:id="@+id/lotView3"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
-                tools:layout_editor_absoluteX="326dp"
+                tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView5"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView6"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView7"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView8"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView9"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView10"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="60dp"
+                tools:layout_editor_absoluteY="190dp" />
+
 
             <Space
                 android:layout_width="0dp"
@@ -123,7 +215,7 @@
         <Space
             android:layout_width="1dp"
             android:layout_height="0dp"
-            android:layout_weight="0"></Space>
+            android:layout_weight="1"></Space>
 
         <LinearLayout
             android:id="@+id/Row2"
@@ -142,9 +234,9 @@
                 android:layout_weight="2"></Space>
 
             <ImageView
-                android:id="@+id/lotView4"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:id="@+id/lotView11"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
                 tools:layout_editor_absoluteX="60dp"
                 tools:layout_editor_absoluteY="190dp" />
@@ -155,9 +247,9 @@
                 android:layout_weight="1"></Space>
 
             <ImageView
-                android:id="@+id/lotView5"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:id="@+id/lotView12"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
                 tools:layout_editor_absoluteX="147dp"
                 tools:layout_editor_absoluteY="190dp" />
@@ -168,9 +260,9 @@
                 android:layout_weight="1"></Space>
 
             <ImageView
-                android:id="@+id/lotView6"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:id="@+id/lotView13"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
                 tools:layout_editor_absoluteX="241dp"
                 tools:layout_editor_absoluteY="190dp" />
@@ -181,9 +273,61 @@
                 android:layout_weight="1"></Space>
 
             <ImageView
-                android:id="@+id/lotView7"
-                android:layout_width="60dp"
-                android:layout_height="40dp"
+                android:id="@+id/lotView14"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView15"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView16"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView17"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                app:srcCompat="@drawable/car_vacant"
+                tools:layout_editor_absoluteX="241dp"
+                tools:layout_editor_absoluteY="190dp" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1"></Space>
+
+            <ImageView
+                android:id="@+id/lotView18"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
                 app:srcCompat="@drawable/car_vacant"
                 tools:layout_editor_absoluteX="326dp"
                 tools:layout_editor_absoluteY="190dp" />
@@ -198,7 +342,7 @@
         <Space
             android:layout_width="1dp"
             android:layout_height="0dp"
-            android:layout_weight="2"></Space>
+            android:layout_weight="10"></Space>
 
     </LinearLayout>
 

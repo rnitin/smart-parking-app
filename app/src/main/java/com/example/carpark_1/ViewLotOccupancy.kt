@@ -38,15 +38,15 @@ class ViewLotOccupancy: AppCompatActivity() {
     fun updateSlots(statusStr: String, time: Long) {
         var status = statusStr.removeSurrounding("[", "]").split(",").map { it.toInt() }
 
-        var img_arr = Array(8) {
+        var img_arr = Array(19) {
             R.drawable.car_vacant
         }
-        for (i in 0..7) {
-            if (status[i] == 1) {
+        for (i in 0..18) {
+            if (status[i] == 0) {
                 img_arr[i] = R.drawable.car_occupied
             }
         }
-        for (i in 0..7) {
+        for (i in 0..18) {
             var currentLot = "lotView$i"
             var currentID: Int = resources.getIdentifier(currentLot, "id", packageName)
             var currentview: ImageView = findViewById<ImageView>(currentID) as ImageView
